@@ -1,12 +1,8 @@
 #include <stdio.h>
 /**
-
 *main - Entry point
-
-*Description - returns the puts function
-
+*Description - returns the printf function
 *Return: Always 0 (Success)
-
 */
 int main(void)
 {
