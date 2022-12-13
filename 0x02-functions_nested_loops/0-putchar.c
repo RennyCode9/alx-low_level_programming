@@ -1,37 +1,32 @@
 #include <unistd.h>
-
 #include "main.h"
-
-
-
 /**
-
- * main - Check description
-
- * Description: It prints the word Holberton, followed by a new line.
-
- * Return: 0.
-
- */
+* main - Check description
+* Description: It prints the word Holberton, followed by a new line.
+* Return: 0.
+*/
 
 int main(void)
-  
 {
-  
-  char word[9] = "Holberton";
-  
-  int i;
-  
+char word[8] = "_putchar";
+int i;
+for (i = 0; i < 8; i++)
+{
+_putchar(word[i]);
+}
+_putchar('\n');
+return (0);
+}
 
-  
-  for (i = 0; i < 9; i++)
-    
-    _putchar(word[i]);
-  
-  _putchar('\n');
-  
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
 
-  
-  return (0);
-  
+int _putchar(char c)
+{
+return (write(1, &c, 1));
 }
