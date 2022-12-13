@@ -6,8 +6,8 @@
 */
 int main(void)
 {
-  char name[] = "_putchar";
+char name[] = "_putchar";
 
-  printf("%s\n", name);
-  return (0);
+printf("%s\n", name);
+return (0);
 }
