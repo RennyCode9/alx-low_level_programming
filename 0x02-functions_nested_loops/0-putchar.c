@@ -1,21 +1,19 @@
-#include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 /**
  *main - entry point
+ *Description - It prints the word "_putcchar", followed by a new line
  *Return: Always 0
 */
 int main(void)
 {
-_putchar();
-return (0);
-}
+  char word[8] = "_putchar";
+  int i;
 
-/**
- *_putchar - Prints "_putchar"
-*/
-void _putchar(void)
-{
-char name[] = "_putchar";
-printf("%s\n", name);
-return;
+  for (i = 0; i < 8; i++)
+    {
+    _putchar(word[i]);
+	}
+  _putchar('\n');
+  return (0);
 }
