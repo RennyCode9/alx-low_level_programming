@@ -6,16 +6,16 @@
  * alphabet in lowercase 10 times
  * Return: 1 if is lowercase or 0 if is uppercase
  */
-int main(int a)
+int _islower(int c)
 {
 char i;
-int lower c;
+int lower = 0;
 for (i = 'a'; i <= 'z'; i++)
 {
-if (i == a)
+if (i == c)
 {
 lower = 1;
 }
 }
-return lower;
+return (lower);
 }
