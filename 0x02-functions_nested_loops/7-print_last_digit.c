@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  *print_last_digit - Check main.h
+ *@r: An integer input
  *Description - Print the last digit of a number
  *Return: r
 */
