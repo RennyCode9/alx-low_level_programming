@@ -27,7 +27,7 @@ _putchar('\n');
  */
 void putformat(int n)
 {
-if (n <= 9 && n !== 0 )
+if (n <= 9 && n != 0 )
 {
 _putchar(',');
 _putchar(' ');
