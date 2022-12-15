@@ -1,6 +1,6 @@
 #include  "main.h"
 /**
- *print_times_table = prints times table for numbers from 0-14
+ *print_times_table - prints times table for numbers from 0-14
  *@n: An input integer value
  *Return: Nothing
  */
@@ -20,7 +20,6 @@ _putchar('\n');
 }
 }
 }
-
 /**
  * putformat - formatted characters to output
  *@n: number to format
@@ -31,6 +30,7 @@ void putformat(int n)
 if (n <= 9)
 {
 _putchar(',');
+_putchar(' ');
 _putchar(' ');
 _putchar(' ');
 _putchar(n + '0');
@@ -52,5 +52,3 @@ _putchar(n / 10 + '0');
 _putchar(n % 10 + '0');
 }
 }
-  
-  
